@@ -4,14 +4,16 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "star": "nodemon appp.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Anastacia Cohen",
   "license": "ISC",
   "devDependencies": {
+    "nodemon": "^1.19.4",
     "prettier": "^1.19.1"
   },
   "dependencies": {
-    "nodemon": "^1.19.4"
+    "express": "^4.17.1"
   }
 }
